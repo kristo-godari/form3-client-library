@@ -13,12 +13,12 @@ Go Modules are required when using this package. [See the go blog guide on using
 ### Using the client
 
 ```
-$ GO111MODULE=on go get github.com/kristo.godari/form3-client-api
+$ go get github.com/kristo-godari/form3-client-library
 ```
 
 ```go
 import (
-  "ithub.com/kristo.godari/form3-client-api" // imports as package "cli"
+  "github.com/kristo-godari/form3-client-library/pkg/form3/client/account"
 )
 ...
 ```
