@@ -8,12 +8,13 @@ import (
 )
 
 /**
- * Change "http://go-hello-world_accountapi_1:8080" to "http://localhost:8080", if you are running this outside the docker network.
+ * The hostname form3-client-library_accountapi_1 is the container name, update it acordingly.
+ * Change "http://form3-client-library_accountapi_1:8080" to "http://localhost:8080", if you are running this outside the docker network.
  */
 func TestFullIntegrationFlow(t *testing.T) {
 
 	// given
-	form3AccountClient := account.NewForm3AccountClientBuilder().WithBaseUrl("http://go-hello-world_accountapi_1:8080").WithVersion("v1").Build()
+	form3AccountClient := account.NewForm3AccountClientBuilder().WithBaseUrl("http://form3-client-library_accountapi_1:8080").WithVersion("v1").Build()
 
 	expectedOrganisationId := "eb0bd6f5-c3f5-44b2-b677-acd23cdde73c"
 	expectedId := "bd27e265-9605-5b4b-a0e5-3003ea9cc419"
