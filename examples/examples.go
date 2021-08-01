@@ -7,7 +7,7 @@ import (
 	"go-hello-world/pkg/form3/client/models"
 )
 
-func main(){
+func examples(){
 
 	// Create a client with default configuration
 	account.NewForm3AccountClientBuilder().Build()
