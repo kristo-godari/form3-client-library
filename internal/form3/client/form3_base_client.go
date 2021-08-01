@@ -8,7 +8,7 @@ import (
 	"net/http"
 )
 
-const Form3BaseUrl = "https://form3.form3.tech"
+const Form3BaseUrl = "https://form3.tech"
 const Form3Version = "v1"
 
 type Form3BaseClient struct {
