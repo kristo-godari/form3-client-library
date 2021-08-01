@@ -1,4 +1,4 @@
-module go-hello-world
+module github.com/kristo-godari/form3-client-library
 
 go 1.16
 
