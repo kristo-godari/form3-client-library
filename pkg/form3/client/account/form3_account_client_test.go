@@ -2,7 +2,7 @@ package account
 
 import (
 	"encoding/json"
-	"go-hello-world/pkg/form3/client/models"
+	"github.com/kristo-godari/form3-client-library/pkg/form3/client/models"
 	"net/http"
 	"net/http/httptest"
 	"testing"

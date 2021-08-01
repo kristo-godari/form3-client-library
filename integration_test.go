@@ -1,8 +1,8 @@
 package main
 
 import (
-	"go-hello-world/pkg/form3/client/account"
-	"go-hello-world/pkg/form3/client/models"
+	"github.com/kristo-godari/form3-client-library/pkg/form3/client/account"
+	"github.com/kristo-godari/form3-client-library/pkg/form3/client/models"
 	"testing"
 	"github.com/stretchr/testify/assert"
 )

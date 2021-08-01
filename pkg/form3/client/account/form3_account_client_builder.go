@@ -1,7 +1,7 @@
 package account
 
 import (
-	"go-hello-world/internal/form3/client"
+	"github.com/kristo-godari/form3-client-library/internal/form3/client"
 	"net/http"
 )
 

@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"go-hello-world/internal/form3/client"
-	"go-hello-world/pkg/form3/client/models"
+	"github.com/kristo-godari/form3-client-library/internal/form3/client"
+	"github.com/kristo-godari/form3-client-library/pkg/form3/client/models"
 	"net/http"
 )
 
