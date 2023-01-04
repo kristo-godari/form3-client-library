@@ -1,9 +1,3 @@
-## About me
-
-My name is Kristo Godari. Here you can find my background: https://www.linkedin.com/in/kristo-godari/
-
-I'm new to go, basically this is my first go project. Coming from a java world, it was challenging and fun to write this project in go. I did not know the sintax, paddigram , best practices and go way of doing thing. I searched in the internet, hopfully i have done a good job. 
-
 ## How to run the project
 Clone repository, then run `docker-compose build` and after run `docker-compose up`. By default all tests will run.
 
