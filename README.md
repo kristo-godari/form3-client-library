@@ -1,5 +1,17 @@
+# Form 3 client library
+
+## Introduction
+This code is a project I completed for an interview practice assignment. 
+A friend of mine had used it for their own interview preparation. 
+My initial intention was to use it as a way to test myself for a potential GO-related job application. 
+However, upon working through the exercise, I discovered that my interest in GO was not as strong as I had previously thought, so I ultimately decided not to apply.
+Regardless, the project was an enjoyable learning experience and I had fun working with GO.
+
+## Requirement
+Requirement is detailed here: https://github.com/form3tech-oss/interview-accountapi
+
 ## How to run the project
-Clone repository, then run `docker-compose build` and after run `docker-compose up`. By default all tests will run.
+Clone repository, then run `docker-compose build` and after run `docker-compose up`. By default, all tests will run.
 
 ## A little about project design
 I have tried to build the project in such a way that can be extensible for the future. 
